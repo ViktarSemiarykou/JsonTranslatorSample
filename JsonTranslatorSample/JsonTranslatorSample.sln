@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonTranslatorSample", "Jso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonTranslatorSample.Tests", "JsonTranslatorSample.Tests\JsonTranslatorSample.Tests.csproj", "{8BE86134-9472-4E04-A3DA-848FF1886BB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonTranslatorSample.Data", "JsonTranslatorSample.Data\JsonTranslatorSample.Data.csproj", "{AF97AF59-4A52-47B2-B052-44074F082F3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonTranslatorSample.Service", "JsonTranslatorSample.Service\JsonTranslatorSample.Service.csproj", "{6F65C5DF-735D-4638-9C58-00BF596FD50D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{8BE86134-9472-4E04-A3DA-848FF1886BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BE86134-9472-4E04-A3DA-848FF1886BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BE86134-9472-4E04-A3DA-848FF1886BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF97AF59-4A52-47B2-B052-44074F082F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF97AF59-4A52-47B2-B052-44074F082F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF97AF59-4A52-47B2-B052-44074F082F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF97AF59-4A52-47B2-B052-44074F082F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F65C5DF-735D-4638-9C58-00BF596FD50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F65C5DF-735D-4638-9C58-00BF596FD50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F65C5DF-735D-4638-9C58-00BF596FD50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F65C5DF-735D-4638-9C58-00BF596FD50D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

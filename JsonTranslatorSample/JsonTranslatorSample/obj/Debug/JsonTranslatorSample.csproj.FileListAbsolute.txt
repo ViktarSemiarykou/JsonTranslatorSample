@@ -38,3 +38,5 @@ D:\Sample\JsonTranslatorSample\JsonTranslatorSample\bin\Newtonsoft.Json.xml
 D:\Sample\JsonTranslatorSample\JsonTranslatorSample\obj\Debug\JsonTranslatorSample.csprojResolveAssemblyReference.cache
 D:\Sample\JsonTranslatorSample\JsonTranslatorSample\obj\Debug\JsonTranslatorSample.dll
 D:\Sample\JsonTranslatorSample\JsonTranslatorSample\obj\Debug\JsonTranslatorSample.pdb
+D:\Sample\JsonTranslatorSample\JsonTranslatorSample\bin\JsonTranslatorSample.Data.dll
+D:\Sample\JsonTranslatorSample\JsonTranslatorSample\bin\JsonTranslatorSample.Data.pdb
