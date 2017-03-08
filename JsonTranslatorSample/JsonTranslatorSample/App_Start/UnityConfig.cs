@@ -14,7 +14,7 @@ namespace JsonTranslatorSample
         {
 			var container = new UnityContainer();
 
-            container.RegisterType<IDataRepository, DummyJsonDataRepository>(new InjectionConstructor(new ResolvedParameter<string>(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Content\Data.json"))));
+            container.RegisterType<IDataRepository, DummyJsonDataRepository>(new InjectionConstructor(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Content\Data.json")));
             container.RegisterType<IDataService, DummyJsonDataService>();
 
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));

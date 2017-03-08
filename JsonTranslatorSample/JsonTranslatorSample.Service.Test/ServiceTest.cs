@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.ServiceModel.Persistence;
 using System.Threading.Tasks;
 using JsonTranslatorSample.Data;
 using JsonTranslatorSample.Data.Dto;
