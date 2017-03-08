@@ -1,7 +1,24 @@
-﻿@{
+﻿@model List<JsonTranslatorSample.Service.Models.Message>
+@{
     ViewBag.Title = "Home Page";
 }
 
 <div class="body-content">
-    
+    <table>
+        <tr>
+            <td>Message ID</td>
+            <td>Channel</td>
+            <td>Message Date</td>
+            <td>Subject</td>
+        </tr>
+        @foreach (var item in Model)
+            {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Channel.Name</td>
+                <td>@item.Date.ToString("MMM d, yyyy h:mm tt")</td>
+                <td>@item.Id</td>
+            </tr>
+        }
+    </table>
 </div>

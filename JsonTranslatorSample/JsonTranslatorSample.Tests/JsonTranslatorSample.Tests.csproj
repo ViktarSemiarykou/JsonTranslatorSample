@@ -35,6 +35,10 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -50,9 +54,6 @@
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.WebRequest" />
@@ -89,9 +90,18 @@
     <Content Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Data.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\JsonTranslatorSample.Data\JsonTranslatorSample.Data.csproj">
+      <Project>{AF97AF59-4A52-47B2-B052-44074F082F3F}</Project>
+      <Name>JsonTranslatorSample.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JsonTranslatorSample.Service\JsonTranslatorSample.Service.csproj">
+      <Project>{6F65C5DF-735D-4638-9C58-00BF596FD50D}</Project>
+      <Name>JsonTranslatorSample.Service</Name>
+    </ProjectReference>
     <ProjectReference Include="..\JsonTranslatorSample\JsonTranslatorSample.csproj">
       <Project>{CB51372F-6977-4BF3-8AB1-E41AE1A86F69}</Project>
       <Name>JsonTranslatorSample</Name>
